@@ -1,0 +1,144 @@
+﻿/* Sticky footer styles
+-------------------------------------------------- */
+/* html {
+    position: relative;
+    min-height: 100%;
+  } */
+  body {
+      position: relative;
+  }
+
+  .nav .active {
+    background-color: yellow;
+    color: red;
+  }
+
+  #about-link {
+      display: none;
+  }
+
+  .affix {
+    top: 90vh;
+    width: 100%;
+    Z-INDEX: 9999 !IMPORTANT;
+  }
+  
+  .affix-bottom {
+    bottom: 0;
+    width: 100%;
+    Z-INDEX: 9999 !IMPORTANT;
+  }
+
+  .sps {
+    /* top: 90vh; */
+    width: 100%;
+    Z-INDEX: 9999 !IMPORTANT;
+  }
+
+  .sps--abv {
+    width: 100%;
+    position: fixed; 
+    left: 0; 
+    bottom: 0px; 
+  }
+  
+  .sps--blw {
+    width: 100%;
+    /* position: relative; */
+    position: absolute;
+    /* bottom: 0; */
+    /* top: 100px; */
+  }
+
+  .social-media-footer {
+    position: relative;
+    /* bottom: 0; */
+    /* top: 90vh; */
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    line-height: 60px; /* Vertically center the text there */
+  }
+
+  .sticky-footer2 {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    line-height: 60px; /* Vertically center the text there */
+    background-color: #f5f5f5;
+  }
+  
+  
+  /* Custom page CSS
+  -------------------------------------------------- */
+  /* Not required for template or sticky footer method. */
+  
+  body > .container {
+    padding: 60px 15px 0;
+  }
+  
+  .sticky-footer2 > .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  
+/* Sticky footer styles
+-------------------------------------------------- */
+  
+
+.full-height {
+    height: 100vh;
+}
+
+.half-height {
+    height: 50vh;
+}
+
+.video-height {
+    /* height: 70%; */
+    height: 70vh;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.nav-width {
+    width: 80%;
+}
+
+.sticky-footer {
+    position: absolute;
+    bottom: 0;
+    /* width: 100%; */
+}
+
+.social-media-links, .nav a {
+    color: black;
+}
+
+.pale-background {
+    background-color: #66bde1;
+}
+
+.colour-dark-blue {
+    color: #4a81b4;
+}
+
+.colour-light-blue {
+    color: #66bde1;
+}
+
+.colour-turquoise {
+    color: #74a5c2;
+}
+
+.colour-orange {
+    color: #fdab59;
+}
+
+.colour-white {
+    color: #ffffff;
+} 
